@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+/* Estilo generales*/
+.body {
+    background-color: rgb(40, 163, 163);
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;   
+
+}
+
+.container {
+    max-width: 1200px; /* Cambia el valor según tus necesidades */
+    margin: 0 auto;
+    padding: 20px; /* Añade espacio interno dentro de los contenedores */
+}
+
+/* Estilo para el encabezado*/
+.header-content {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(40, 163, 163);
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+
+.header-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el formulario*/
+.consultar {
+    text-align: center;
+    padding: 20px 0;
+}
